@@ -1,0 +1,20 @@
+
+{
+  "schemaVersion": 1,
+  "id": "npcaura",
+  "version": "1.0.0",
+  "name": "NPC Aura Training",
+  "description": "Training NPC target detector",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "example.npcaura.NpcAuraClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
